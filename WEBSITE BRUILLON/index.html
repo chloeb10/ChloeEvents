@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chloe Events - Home Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+<!--
+
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="background2.png">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="logo1.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+									
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="history.html" class="tm-nav-link">History</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Welcome to Chloe Events</h2>
+				<p class="col-12 text-center">Welcome to Chloe Events, your event agency in Troyes. We travel all over the Aube region to organize birthdays, baby showers, bachelor and bachelorette parties, team building and corporate events.... </p>
+			</header>
+			
+		
+		<!-- Gallery -->
+			<div class="row tm-gallery">
+				
+				<div class="tm-gallery-page">
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="baby1.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Baby Shower</h4>
+								<p class="tm-gallery-description">Let us organize the baby shower and take some time for you before the arrival of your baby...</p>
+								
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="wedding.jpg" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Wedding</h4>
+								<p class="tm-gallery-description">We can organize small weddings. We let you contact us about it, we are not specialized in wedding organization but we can cooperate together for the organization of your wedding.</p>
+								
+							</figcaption>
+						</figure>
+					</article>
+
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="team.png" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Team Building</h4>
+								<p class="tm-gallery-description">You can give us your <u>corporate events</u> to strengthen the cohesion of your teams.</p>
+								
+							</figcaption>
+						</figure>
+					</article>
+
+
+
+
+					
+					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+						<figure>
+							<img src="birthday2.png" alt="Image" class="img-fluid tm-gallery-img" />
+							<figcaption>
+								<h4 class="tm-gallery-title">Birthday</h4>
+								<p class="tm-gallery-description">This is your day so let us imagine <u>the decoration</u> for you as well as <u>the organization</u> and you will be able to enjoy a maximum.</p>
+								
+							</figcaption>
+						</figure>
+					</article>
+
+			
+			
+			
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2020 Chloe Events designed by Chloe Bruillon</p>
+		</footer>
+
+
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Handle click on paging links
+			$('.tm-paging-link').click(function(e){
+				e.preventDefault();
+				
+				var page = $(this).text().toLowerCase();
+				$('.tm-gallery-page').addClass('hidden');
+				$('#tm-gallery-page-' + page).removeClass('hidden');
+				$('.tm-paging-link').removeClass('active');
+				$(this).addClass("active");
+			});
+		});
+	</script>
+</body>
+</html>

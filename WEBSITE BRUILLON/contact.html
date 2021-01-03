@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chloe Events - Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="background2.png">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<img src="logo1.png" alt="Logo" class="tm-site-logo" /> 
+							<div class="tm-site-text-box">
+								
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+								<li class="tm-nav-li"><a href="history.html" class="tm-nav-link">History</a></li>
+								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link active">Contact</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				
+
+				
+
+
+				<div class="row tm-welcome-section">
+
+						<div class="tm-address-box">
+							<h2 class="col-12 text-center tm-section-title">Contact Page</h2>
+							<h4 class="tm-info-title tm-text-success"><b>Our Address</b></h4>
+							<address>
+								217 Avenue Pierre Brossolette, 10000 Troyes
+							</address>
+							<a href="tel:080-090-0110" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>+33 6 00 00 00
+							</a>
+							<a href="mailto:chloe.bruillon@yschools.eu" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i>chloe.bruillon@yschools.eu
+							</a>
+							
+							<div class="tm-contact-social">
+								<a href="https://www.facebook.com/YSCHOOLS/" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
+								<a href="https://twitter.com/yschools_edu" class="tm-social-link"><i class="fab fa-twitter tm-social-icon"></i></a>
+								<a href="https://www.instagram.com/yschools_edu/" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
+								<a href="https://www.linkedin.com/company/y-schools/" class="tm-social-link"><i class="fab fa-linkedin tm-social-icon"></i></a>
+								<a href="https://www.youtube.com/user/groupeesctroyes" class="tm-social-link"><i class="fab fa-youtube tm-social-icon"></i></a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+
+
+
+			</header>
+
+			
+					
+            
+<!-- How to change your own map point
+	1. Go to Google Maps
+	2. Click on your location point
+	3. Click "Share" and choose "Embed map" tab
+	4. Copy only URL and paste it within the src="" field below
+-->
+			<div class="tm-container-inner-2 tm-map-section">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2654.98377270445!2d4.076871050805488!3d48.28392804883415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee9903b7b2749d%3A0xa4069e305a200644!2sY%20SCHOOLS%20-%20Campus%20Brossolette!5e0!3m2!1sfr!2sfr!4v1608580351294!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2020 Chloe Events designed by Chloe Bruillon</p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
